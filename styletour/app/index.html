@@ -1,0 +1,842 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Styletour</title>
+
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+
+<body>
+    <header class="header">
+        <nav class="navbar-top">
+            <!-- .container>.row|c -->
+            <div class="container ">
+                <div class="row justify-content-between">
+                    <div class="col-auto">
+                        <button data-show-collapse="#js-show-collapse-1" type="button" class="btn btn-red btn-collapse">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                    </div>
+                    <div class="col-auto">
+                        <button data-show-collapse="#js-show-collapse-2" type="button" class="btn btn-red btn-collapse">
+                            <i class="fa fa-tags"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+
+                <div id="js-show-collapse-1" class="navbar-top-collapse collapse">
+                    <div class="row justify-content-between">
+                        <!-- .col-xl-auto*2|c -->
+                        <div class="col-xl-auto">
+                            <!-- ul.navbar-top-list>li*5>a[href="#!"].navbar-top-link -->
+                            <ul class="navbar-top-list">
+                                <li>
+                                    <a href="#!" class="navbar-top-link">Support</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="navbar-top-link">Free Shipping Over $50</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="navbar-top-link">Articles</a>
+                                </li>
+                                <li>
+                                    <a href="#language" class="navbar-top-link dropdown">english
+                                        <!-- i.fa.fa-caret-down -->
+                                        <i class="fa fa-caret-down"></i>
+                                    </a>
+                                    <!-- ul.dropdown-menu>li*3>a[href="#!"].navbar-top-link -->
+                                    <ul class="dropdown-menu" id="language">
+                                        <li>
+                                            <a href="#!" class="navbar-top-link dropdown-menu-link">O`zbek</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!" class="navbar-top-link dropdown-menu-link">Русский</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#currency" class="navbar-top-link dropdown">currecy: usd
+                                        <!-- i.fa.fa-caret-down -->
+                                        <i class="fa fa-caret-down"></i>
+                                    </a>
+                                    <!-- ul.dropdown-menu>li*3>a[href="#!"].navbar-top-link -->
+                                    <ul class="dropdown-menu" id="currency">
+                                        <li>
+                                            <a href="#!" class="navbar-top-link dropdown-menu-link">S`om</a>
+                                        </li>
+                                        <li>
+                                            <a href="#!" class="navbar-top-link dropdown-menu-link">Рубль</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.col-xl-auto -->
+                        <div class="col-xl-auto">
+                            <!-- ul.navbar-top-list>li*3>a[href="#!"].navbar-top-link -->
+                            <ul class="navbar-top-list">
+                                <li>
+                                    <a href="#!" class="navbar-top-link">login</a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="navbar-top-link">signup</a>
+                                </li>
+                                <li class="pr">
+                                    <a href="./cart.html" class="btn btn-red shopping-cart">
+                                        <!-- i.fa.fa-shopping-cart -->
+                                        <i class="fa fa-shopping-cart"></i>
+                                        shopping cart
+                                    </a>
+                                    <div class="itterator">
+                                    </div>
+                                    <div class="sum">
+                                        <p class="sum-text">
+                                            <b class="sum-title">You added:</b>
+                                            <span class="sum-info">0 pieses</span>
+                                        </p>
+                                        <p class="sum-text">
+                                            <b class="sum-title">Total Price:</b>
+                                            <span class="sum-price">$0.00</span>
+                                        </p>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.col-xl-auto -->
+                    </div>
+                </div>
+
+                <!-- /.row -->
+            </div>
+            <!-- /.container -->
+        </nav>
+        <!-- /.navbar-top -->
+
+
+        <nav class="navbar-bottom">
+            <!-- .container>.row|c -->
+
+            <div class="navbar-bottom-collapse collapse" id="js-show-collapse-2">
+                <div class="container">
+                    <form action="">
+                        <div class="row">
+                            <!-- .col-xl-3+.col-xl+.col-xl-3|c -->
+                            <div class="col-xl-3">
+                                <!-- a.logo-link[href="/"] -->
+                                <a href="/" class="logo-link">
+                                    <!-- img.logo[src="./img/logo.png"] -->
+                                    <img src="./img/logo.png" alt="Styletour" class="logo"> Styletour
+                                </a>
+                            </div>
+                            <!-- /.col-xl-3 -->
+                            <div class="col-xl">
+                                <!-- ul.navbar-bottom-list>li*6>a.navbar-bottom-link[href="#!"] -->
+                                <ul class="navbar-bottom-list">
+                                    <li>
+                                        <a href="#!" class="navbar-bottom-link">Shop</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="navbar-bottom-link">Men</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="navbar-bottom-link">Women</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="navbar-bottom-link">Kids</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="navbar-bottom-link">Accessories</a>
+                                    </li>
+                                    <li>
+                                        <a href="#!" class="navbar-bottom-link">Sale</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <!-- /.col-xl -->
+                            <div class="col-xl-3">
+                                <input class="navbar-bottom-input" type="text" placeholder="Search">
+                                <button class="btn btn-search" type="submit">
+                                    <!-- i.fa.fa-search -->
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                            <!-- /.col-xl-3 -->
+                        </div>
+                        <!-- /.row -->
+                    </form>
+                </div>
+                <!-- /.container -->
+            </div>
+        </nav>
+        <!-- /.navbar-bottom -->
+
+
+        <div class="owl-carousel d-none d-md-block">
+            <!-- .owl-carousel-slide*4|c -->
+            <div class="owl-carousel-slide">
+
+                <img src="./img/slide1.png" alt="">
+                <div class="owl-carousel-inner">
+                    <!-- .container>.row>.col-auto -->
+                    <div class="container">
+                        <div class="row justify-content-center justify-content-xl-start">
+                            <div class="col-auto">
+                                <p class="owl-carousel-title">
+                                    Women's Apparel
+                                </p>
+
+                                <p class="owl-carousel-text">
+                                    T-Shirts, Dress Shirts, Tanks, Pants and More...
+                                </p>
+
+                                <!-- a[href="#!"].btn.btn-red.btn-red-lg -->
+                                <a href="#!" class="btn btn-red btn-red-lg">
+                                    Shop Women’s Apparel
+                                </a>
+                            </div>
+                            <!-- /.col-auto -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- /.owl-carousel-inner -->
+
+
+
+            </div>
+            <!-- /.owl-carousel-slide -->
+            <div class="owl-carousel-slide">
+
+                <img src="./img/slide2.png" alt="">
+                <div class="owl-carousel-inner">
+                    <!-- .container>.row>.col-auto -->
+                    <div class="container">
+                        <div class="row justify-content-center justify-content-xl-start">
+                            <div class="col-auto">
+                                <p class="owl-carousel-title">
+                                    Women's Apparel
+                                </p>
+
+                                <p class="owl-carousel-text">
+                                    T-Shirts, Dress Shirts, Tanks, Pants and More...
+                                </p>
+
+                                <!-- a[href="#!"].btn.btn-red.btn-red-lg -->
+                                <a href="#!" class="btn btn-red btn-red-lg">
+                                    Shop Women’s Apparel
+                                </a>
+                            </div>
+                            <!-- /.col-auto -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- /.owl-carousel-inner -->
+
+            </div>
+            <!-- /.owl-carousel-slide -->
+            <div class="owl-carousel-slide">
+
+                <img src="./img/slide1.png" alt="">
+                <div class="owl-carousel-inner">
+                    <!-- .container>.row>.col-auto -->
+                    <div class="container">
+                        <div class="row justify-content-center justify-content-xl-start">
+                            <div class="col-auto">
+                                <p class="owl-carousel-title">
+                                    Women's Apparel
+                                </p>
+
+                                <p class="owl-carousel-text">
+                                    T-Shirts, Dress Shirts, Tanks, Pants and More...
+                                </p>
+
+                                <!-- a[href="#!"].btn.btn-red.btn-red-lg -->
+                                <a href="#!" class="btn btn-red btn-red-lg">
+                                    Shop Women’s Apparel
+                                </a>
+                            </div>
+                            <!-- /.col-auto -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- /.owl-carousel-inner -->
+
+            </div>
+            <!-- /.owl-carousel-slide -->
+            <div class="owl-carousel-slide">
+
+                <img src="./img/slide2.png" alt="">
+                <div class="owl-carousel-inner">
+                    <!-- .container>.row>.col-auto -->
+                    <div class="container">
+                        <div class="row justify-content-center justify-content-xl-start">
+                            <div class="col-auto">
+                                <p class="owl-carousel-title">
+                                    Women's Apparel
+                                </p>
+
+                                <p class="owl-carousel-text">
+                                    T-Shirts, Dress Shirts, Tanks, Pants and More...
+                                </p>
+
+                                <!-- a[href="#!"].btn.btn-red.btn-red-lg -->
+                                <a href="#!" class="btn btn-red btn-red-lg">
+                                    Shop Women’s Apparel
+                                </a>
+                            </div>
+                            <!-- /.col-auto -->
+                        </div>
+                        <!-- /.row -->
+                    </div>
+                    <!-- /.container -->
+                </div>
+                <!-- /.owl-carousel-inner -->
+
+            </div>
+            <!-- /.owl-carousel-slide -->
+        </div>
+        <!-- /.owl-carousel -->
+
+        <!-- .header-ad>lorem8 -->
+        <div class="header-ad d-none d-md-block">
+            <div class="container">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+        </div>
+        <!-- /.header-ad -->
+    </header>
+    <!-- /.header -->
+    <section class="content">
+        <h2 class="hidden-title">Main Content</h2>
+        <!-- /.hidden-title -->
+        <div class="container">
+            <div class="row">
+                <aside class="sidebar col-lg-4 col-xl-3">
+                    <h3 class="content-title">
+                        Popular Categories
+                    </h3>
+                    <!-- /.content-title -->
+                    <ul class="sidebar-list">
+                        <li>
+                            <a href="#!" class="sidebar-link">Lorem, ipsum.</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="sidebar-link">Reprehenderit, veniam.</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="sidebar-link">Totam, consequatur!</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="sidebar-link">Quod, soluta?</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="sidebar-link">Dolorem, sunt.</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="sidebar-link">Aut, tenetur.</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="sidebar-link">Eligendi, reiciendis.</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="sidebar-link">Delectus, repudiandae!</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="sidebar-link">Nobis, ab!</a>
+                        </li>
+                    </ul>
+                    <h3 class="content-title">
+                        Popular Categories
+                    </h3>
+                    <!-- /.content-title -->
+                    <ul class="sidebar-list">
+                        <li>
+                            <a href="#!" class="sidebar-link">Sapiente, modi?</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="sidebar-link">Tempora, incidunt.</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="sidebar-link">Id, repellat.</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="sidebar-link">Quidem, atque?</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="sidebar-link">Quisquam, iusto?</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="sidebar-link">Pariatur, distinctio!</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="sidebar-link">Deserunt, similique!</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="sidebar-link">Ducimus, recusandae!</a>
+                        </li>
+                        <li>
+                            <a href="#!" class="sidebar-link">Qui, ut!</a>
+                        </li>
+                    </ul>
+                    <div class="owl-carousel">
+                        <div class="owl-carousel-slide">
+                            <img src="./img/ad1.png" alt="">
+                            <div class="owl-carousel-body">
+                                <p class="owl-carousel-title">Fashion Colors For Women</p>
+                                <!-- /.owl-carousel-title -->
+                                <p>Make every category of your webstore look special by setting different color schemes.</p>
+                            </div>
+                            <!-- /.owl-carousel-body -->
+                        </div>
+                        <!-- /.owl-carousel-slide -->
+                        <div class="owl-carousel-slide">
+                            <img src="./img/ad1.png" alt="">
+                            <div class="owl-carousel-body">
+                                <p class="owl-carousel-title">Fashion Colors For Women</p>
+                                <!-- /.owl-carousel-title -->
+                                <p>Make every category of your webstore look special by setting different color schemes.</p>
+                            </div>
+                            <!-- /.owl-carousel-body -->
+                        </div>
+                        <!-- /.owl-carousel-slide -->
+                        <div class="owl-carousel-slide">
+                            <img src="./img/ad1.png" alt="">
+                            <div class="owl-carousel-body">
+                                <p class="owl-carousel-title">Fashion Colors For Women</p>
+                                <!-- /.owl-carousel-title -->
+                                <p>Make every category of your webstore look special by setting different color schemes.</p>
+                            </div>
+                            <!-- /.owl-carousel-body -->
+                        </div>
+                        <!-- /.owl-carousel-slide -->
+
+                    </div>
+                    <div class="sidebar-ad">
+                        <img src="./img/ad2.png" alt="">
+                        <div class="sidebar-ad-body">
+                            <p>introducing</p>
+                            <p class="sidebar-ad-title">bombshell</p>
+                            <p>forever</p>
+                        </div>
+                        <div class="sidebar-ad-footer">
+                            <a href="#1" class="btn btn-red d-block">
+                                <strong>shop now</strong>
+                            </a>
+                        </div>
+                    </div>
+                    <h3 class="content-title">
+                        About Store
+                    </h3>
+                    <div class="sidebar-about">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi nemo doloremque ut, facere in quo
+                            corrupti laboriosam consequuntur nulla quibusdam.</p>
+                        <p>Animi ea rerum quaerat quod voluptates accusamus ipsum maiores suscipit ipsa ex sunt dicta nesciunt
+                            at accusantium, deleniti, fugiat veniam!</p>
+                    </div>
+                </aside>
+                <!-- /.sidebar col-xl-3 -->
+                <main class="main col-lg-8 col-xl-9">
+                    <h3 class="content-title">
+                        Items on Demand
+                    </h3>
+                    <div class="owl-carousel goods">
+                        <div class=" goods-item">
+                            <div class="main-card" data-set-sale="SALE">
+                                <button type="button" class="btn fa fa-heart"></button>
+                                <a href="#!">
+                                    <img src="./img/clothes1.png" alt="">
+                                    <h4 class="main-card-title">Lorem, ipsum dolor. Lorem ipsum dolor sit!</h4>
+                                </a>
+                                <p class="main-card-text">
+                                    Lorem ipsum dolor sit.
+                                </p>
+                                <div class="main-card-footer">
+                                    <p class="main-card-price"> Price: $
+                                        <span class="price">20.00</span>
+                                    </p>
+                                    <a href="#!" class="btn btn-card">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" goods-item">
+                            <div class="main-card">
+                                <button type="button" class="btn fa fa-heart"></button>
+                                <a href="#!">
+                                    <img src="./img/clothes2.png" alt="">
+                                    <h4 class="main-card-title">Lorem, ipsum dolor.</h4>
+                                </a>
+                                <p class="main-card-text">
+                                    Lorem ipsum dolor sit.
+                                </p>
+                                <div class="main-card-footer">
+                                    <p class="main-card-price"> Price: $
+                                        <span class="price">13.00</span>
+                                    </p>
+                                    <a href="#!" class="btn btn-card">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" goods-item ">
+                            <div class="main-card">
+                                <button type="button" class="btn fa fa-heart"></button>
+                                <a href="#!">
+                                    <img src="./img/clothes3.png" alt="">
+                                    <h4 class="main-card-title">Lorem, ipsum dolor.</h4>
+                                </a>
+                                <p class="main-card-text">
+                                    Lorem ipsum dolor sit.
+                                </p>
+                                <div class="main-card-footer">
+                                    <p class="main-card-price"> Price: $
+                                        <span class="price">17.00</span>
+                                    </p>
+                                    <a href="#!" class="btn btn-card">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <h3 class="content-title">
+                        Items on Demand
+                    </h3>
+                    <div class="owl-carousel goods">
+                        <div class=" goods-item">
+                            <div class="main-card" data-set-sale="SALE">
+                                <button type="button" class="btn fa fa-heart"></button>
+                                <a href="#!">
+                                    <img src="./img/clothes4.png" alt="">
+                                    <h4 class="main-card-title">Lorem, ipsum dolor. Lorem ipsum dolor sit!</h4>
+                                </a>
+                                <p class="main-card-text">
+                                    Lorem ipsum dolor sit.
+                                </p>
+                                <div class="main-card-footer">
+                                    <p class="main-card-price"> Price: $
+                                        <span class="price">20.00</span>
+                                    </p>
+                                    <a href="#!" class="btn btn-card">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" goods-item">
+                            <div class="main-card">
+                                <button type="button" class="btn fa fa-heart"></button>
+                                <a href="#!">
+                                    <img src="./img/clothes5.png" alt="">
+                                    <h4 class="main-card-title">Lorem, ipsum dolor.</h4>
+                                </a>
+                                <p class="main-card-text">
+                                    Lorem ipsum dolor sit.
+                                </p>
+                                <div class="main-card-footer">
+                                    <p class="main-card-price"> Price: $
+                                        <span class="price">13.00</span>
+                                    </p>
+                                    <a href="#!" class="btn btn-card">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" goods-item ">
+                            <div class="main-card">
+                                <button type="button" class="btn fa fa-heart"></button>
+                                <a href="#!">
+                                    <img src="./img/clothes6.png" alt="">
+                                    <h4 class="main-card-title">Lorem, ipsum dolor.</h4>
+                                </a>
+                                <p class="main-card-text">
+                                    Lorem ipsum dolor sit.
+                                </p>
+                                <div class="main-card-footer">
+                                    <p class="main-card-price"> Price: $
+                                        <span class="price">17.00</span>
+                                    </p>
+                                    <a href="#!" class="btn btn-card">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-xl col-lg-4 col-lg-6">
+                            <a href="#!" class="main-banner">
+                                <img src="./img/banner1.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xl col-lg-4 col-lg-6">
+                            <a href="#!" class="main-banner">
+                                <img src="./img/banner2.png" alt="">
+                            </a>
+                        </div>
+                        <div class="col-xl col-lg-4 col-lg-6">
+                            <a href="#!" class="main-banner">
+                                <img src="./img/banner3.png" alt="">
+                            </a>
+                        </div>
+                    </div>
+
+
+                    <h3 class="content-title">
+                        Items on Demand
+                    </h3>
+                    <div class="owl-carousel goods">
+                        <div class=" goods-item">
+                            <div class="main-card" data-set-sale="SALE">
+                                <button type="button" class="btn fa fa-heart"></button>
+                                <a href="#!">
+                                    <img src="./img/clothes7.png" alt="">
+                                    <h4 class="main-card-title">Lorem, ipsum dolor. Lorem ipsum dolor sit!</h4>
+                                </a>
+                                <p class="main-card-text">
+                                    Lorem ipsum dolor sit.
+                                </p>
+                                <div class="main-card-footer">
+                                    <p class="main-card-price"> Price: $
+                                        <span class="price">20.00</span>
+                                    </p>
+                                    <a href="#!" class="btn btn-card">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" goods-item">
+                            <div class="main-card">
+                                <button type="button" class="btn fa fa-heart"></button>
+                                <a href="#!">
+                                    <img src="./img/clothes8.png" alt="">
+                                    <h4 class="main-card-title">Lorem, ipsum dolor.</h4>
+                                </a>
+                                <p class="main-card-text">
+                                    Lorem ipsum dolor sit.
+                                </p>
+                                <div class="main-card-footer">
+                                    <p class="main-card-price"> Price: $
+                                        <span class="price">13.00</span>
+                                    </p>
+                                    <a href="#!" class="btn btn-card">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class=" goods-item ">
+                            <div class="main-card">
+                                <button type="button" class="btn fa fa-heart"></button>
+                                <a href="#!">
+                                    <img src="./img/clothes9.png" alt="">
+                                    <h4 class="main-card-title">Lorem, ipsum dolor.</h4>
+                                </a>
+                                <p class="main-card-text">
+                                    Lorem ipsum dolor sit.
+                                </p>
+                                <div class="main-card-footer">
+                                    <p class="main-card-price"> Price: $
+                                        <span class="price">17.00</span>
+                                    </p>
+                                    <a href="#!" class="btn btn-card">ADD TO CART</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </main>
+            </div>
+            <!-- /.row -->
+        </div>
+        <!-- /.container -->
+    </section>
+    <!-- /.content -->
+    <section class="discounts">
+        <div class="container">
+            <form action="" method="POST">
+                <div class="row align-items-center">
+                    <div class="col-xl-auto">
+                        <h2 class="discounts-title">Get Discounts and Free Offers</h2>
+                        <p class="discounts-text">Get free coupens, discounts and new arivals</p>
+
+                    </div>
+                    <div class="col-xl">
+                        <input type="text" class="discounts-input" placeholder="your full name" required>
+                    </div>
+                    <div class="col-xl">
+                        <input type="email" class="discounts-input" placeholder="your email address" required>
+                    </div>
+                    <div class="col-xl-auto ">
+                        <div class="pr">
+                            <input type="submit" class="btn btn-submit" value="subcribe">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+    <section class="partners">
+        <h2 class="hidden-title">partners</h2>
+        <div class="container">
+            <div class="owl-carousel">
+                <img src="./img/partner1.png" alt="">
+                <img src="./img/partner2.png" alt="">
+                <img src="./img/partner3.png" alt="">
+                <img src="./img/partner4.png" alt="">
+                <img src="./img/partner5.png" alt="">
+                <img src="./img/partner6.png" alt="">
+                <img src="./img/partner1.png" alt="">
+                <img src="./img/partner2.png" alt="">
+                <img src="./img/partner3.png" alt="">
+                <img src="./img/partner4.png" alt="">
+                <img src="./img/partner5.png" alt="">
+                <img src="./img/partner6.png" alt="">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-xl-auto">
+                    <ul class="footer-list">
+
+                        <li class="footer-title">help &#38; info</li>
+                        <li>
+                            <a href="#!"> Returns & Refunds</a>
+                        </li>
+                        <li>
+                            <a href="#!"> Contact Us </a>
+                        </li>
+                        <li>
+                            <a href="#!"> Track your Order </a>
+                        </li>
+                        <li>
+                            <a href="#!"> Reglaze Service</a>
+                        </li>
+                        <li>
+                            <a href="#!"> Delivery </a>
+                        </li>
+                        <li>
+                            <a href="#!"> Lens Price Comparison </a>
+                        </li>
+                        <li>
+                            <a href="#!"> A - Z Brands </a>
+                        </li>
+                        <li>
+                            <a href="#!"> FAQ's</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-auto">
+                    <ul class="footer-list">
+                        <li class="footer-title"> brands we sell</li>
+                        <li>
+                            <a href="#!"> Noosa Amsterdam</a>
+                        </li>
+                        <li>
+                            <a href="#!"> Cream Clothing </a>
+                        </li>
+                        <li>
+                            <a href="#!"> Taschendieb </a>
+                        </li>
+                        <li>
+                            <a href="#!"> Hermes paris </a>
+                        </li>
+                        <li>
+                            <a href="#!"> D&G Fashion</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-xl-auto">
+                    <ul class="footer-list">
+
+
+                        <li class="footer-title">care &#38; advice</li>
+                        <li>
+                            <a href="#!"> Prescription Information </a>
+                        </li>
+                        <li>
+                            <a href="#!"> Lenses & Coatings </a>
+                        </li>
+                        <li>
+                            <a href="#!"> PD Measurement </a>
+                        </li>
+                        <li>
+                            <a href="#!"> Style Advice </a>
+                        </li>
+                        <li>
+                            <a href="#!"> Size Guide </a>
+                        </li>
+                        <li>
+                            <a href="#!"> Shopping Guide</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-xl-auto">
+                    <ul class="footer-list">
+                        <li class="footer-title">company</li>
+                        <li>
+                            <a href="#!">About Us</a>
+                        </li>
+                        <li>
+                            <a href="#!"> Our Store </a>
+                        </li>
+                        <li>
+                            <a href="#!"> Terms & Conditions </a>
+                        </li>
+                        <li>
+                            <a href="#!"> Privacy Policy </a>
+                        </li>
+                        <li>
+                            <a href="#!"> Cookies </a>
+                        </li>
+                        <li>
+                            <a href="#!"> Find us</a>
+                        </li>
+                    </ul>
+
+                </div>
+                <div class="col-xl-auto">
+                    <ul class="footer-list">
+                        <li class="footer-title">follow us</li>
+                        <li>
+                            <ul class="footer-social">
+                                <li>
+                                    <a href="#!" class="social-link">
+                                        <img src="./img/follow1.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="social-link">
+                                        <img src="./img/follow2.png" alt="">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="#!" class="social-link">
+                                        <img src="./img/follow3.png" alt="">
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <div class="container">
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-auto">© 2014 Fashion Store. All Rights Reserved.</div>
+                    <div class="col-auto">
+                        <img src="./img/card.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <button class="btn btn-red" id="js-aside-show">menu</button>
+    <script src="./js/jquery-3.3.1.min.js"></script>
+    <script src="./js/owl.carousel.min.js"></script>
+
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

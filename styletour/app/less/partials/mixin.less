@@ -1,0 +1,21 @@
+@lg: 1200px;
+@md: 992px;
+@sm: 768px;
+@xs: 576px;
+.media-lg(@content) {
+    @media (max-width: @lg) {
+        @content();
+    }
+}
+
+.media-self-lg(@prop, @val) {
+    @media(max-width: @lg) {
+        @{prop}:@val
+    }
+}
+
+.media-md(@content) {
+    @media (max-width: @md) {
+        @content();
+    }
+}

@@ -1,0 +1,39 @@
+// Библиотеки:
+@import (less) url("./libs/bootstrap-grid.css");
+@import (less) url("./libs/font-awesome.css");
+@import (less) url("./libs/owl.carousel.css");
+@import (less) url("./libs/normalize.css");
+@import url(./partials/mixin.less);
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    // fz16
+    font: 16px/1.4 normal 'Open Sans', Arial, sans-serif; // bgc:t
+    background-color: transparent; // c#0
+    color: #000000;
+}
+
+ul {
+    // list:none
+    list-style-type: none;
+}
+
+a {
+    // c:i
+    color: inherit; // td:none
+    text-decoration: none;
+}
+
+.pr {
+    position: relative;
+}
+
+// Части стилей:
+@import url("./partials/fonts.less");
+@import url("./partials/btn.less");
+@import url("./partials/header.less");
+@import url("./partials/section.less");
+@import url("./partials/footer.less");

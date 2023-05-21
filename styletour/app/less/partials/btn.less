@@ -1,0 +1,79 @@
+.btn,
+a.btn,
+input.btn,
+button.btn {
+    // d:ib
+    display: inline-block;
+    padding: 0;
+    line-height: 1;
+    text-decoration: none;
+    outline: none;
+    font-weight: normal;
+    border: none;
+    background-color: transparent; // cur:p
+    cursor: pointer;
+    transition: all .3s;
+    &-red {
+        background-color: #d51e08;
+        color: #ffffff;
+        font-size: 14px;
+        padding: .7em 1.5em;
+        border-radius: 3px;
+        &:hover {
+            background-color: lighten(#d51e08, 10%);
+        }
+    }
+    &-red-lg {
+        font-size: 24px;
+    }
+    &-search {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 15px; // pl15+pr15
+        padding-left: 15px;
+        padding-right: 15px;
+        font-size: 14px; // c#95
+        color: #959595;
+    }
+    &-card {
+        line-height: 40px;
+        height: 40px;
+        padding-left: 25px;
+        padding-right: 25px;
+        background-color: #ffffff;
+        text-transform: uppercase;
+        font-size: 14px;
+        box-shadow: 0px 0px 1.5px 0px RGBA(0, 0, 0, 0.75);
+        &:hover {
+            background-color: darken(#fff, 10%);
+        }
+    }
+    &-submit {
+        position: absolute;
+        width: 100%;
+        height: 50px;
+        background-color: #e77553;
+        border-radius: 3px;
+        border-bottom: 5px solid #d96340;
+        color: #ffffff;
+        text-transform: capitalize;
+        box-shadow: 0px 6px 6px -1px rgba(128, 128, 128, 1);
+        transition: all .1s;
+        &:active {
+            box-shadow: 0px 2px 2px 0px rgba(128, 128, 128, .6);
+            border-bottom: 2px solid #d96340;
+            top: 3px;
+        }
+    }
+    &#js-aside-show{
+        position: fixed;
+        z-index: 1010;
+        top: 30px;
+        right: 15px;
+        display: none;
+        .media-md({
+            display: inline-block;
+        })
+    }
+}
